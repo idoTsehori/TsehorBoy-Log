@@ -1,8 +1,8 @@
 {
-  "name": "tsehorboy-log",
-  "displayName": "tsehorboy log",
-  "description": "a quick shortcut for ServiceWrapper.LogMessage",
-  "version": "0.0.1",
+  "name": "TsehorLog",
+  "displayName": "TsehorLog",
+  "description": "a quick shortcut for Console Log Messages",
+  "version": "0.0.2",
   "publisher": "Ido Tsehori",
   "engines": {
     "vscode": "^1.85.0"
@@ -15,19 +15,19 @@
   "contributes": {
     "commands": [
       {
-        "command": "tsehorboy-log.insertLog",
+        "command": "TsehorLog.insertLog",
         "title": "Insert Log Message"
       }
     ],
     "keybindings": [
       {
-        "command": "tsehorboy-log.insertLog",
+        "command": "TsehorLog.insertLog",
         "key": "alt+a",
         "when": "editorTextFocus"
       }
     ]
   },
-  "icon": "images/tsehorboy-log.png",
+  "icon": "images/TsehorLog.png",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
